@@ -1,0 +1,8 @@
+{
+  "images": [
+    "small_vehicles_1.jpg",
+    "terrain_2.png",
+    "obb_test_image.png"
+  ],
+  "images_dir": "data"
+}

@@ -1,0 +1,7 @@
+torch>=2.0
+ultralytics>=8.0
+sahi>=0.11
+opencv-python
+numpy
+matplotlib
+supervision

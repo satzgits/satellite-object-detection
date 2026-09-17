@@ -1,0 +1,4 @@
+yolov8x.pt
+notebooks/yolov8*.pt
+__pycache__/
+.ipynb_checkpoints/

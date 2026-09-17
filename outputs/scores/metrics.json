@@ -1,0 +1,53 @@
+{
+  "method": "YOLOv8x (COCO pretrained) vs YOLOv8x + SAHI slicked inference",
+  "confidence_threshold": 0.25,
+  "slice": "512x512, overlap 0.2",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "per_image": {
+    "small_vehicles_1.jpg": {
+      "size_px": "1068x580",
+      "baseline_count": 20,
+      "sahi_count": 30,
+      "baseline_time_ms": 809.1,
+      "sahi_time_ms": 984.6,
+      "improvement_pct": 50.0,
+      "sahi_classes": {
+        "car": 25,
+        "truck": 5
+      }
+    },
+    "terrain_2.png": {
+      "size_px": "1024x682",
+      "baseline_count": 5,
+      "sahi_count": 6,
+      "baseline_time_ms": 44.8,
+      "sahi_time_ms": 552.6,
+      "improvement_pct": 20.0,
+      "sahi_classes": {
+        "person": 1,
+        "truck": 5
+      }
+    },
+    "obb_test_image.png": {
+      "size_px": "1920x1080",
+      "baseline_count": 13,
+      "sahi_count": 70,
+      "baseline_time_ms": 43.9,
+      "sahi_time_ms": 1359.7,
+      "improvement_pct": 438.5,
+      "sahi_classes": {
+        "airplane": 2,
+        "boat": 50,
+        "traffic light": 1,
+        "umbrella": 1,
+        "kite": 1,
+        "surfboard": 10,
+        "bottle": 1,
+        "cell phone": 4
+      }
+    }
+  },
+  "total_baseline": 38,
+  "total_sahi": 106,
+  "total_improvement_pct": 178.9
+}
