@@ -8,8 +8,8 @@
       "size_px": "1068x580",
       "baseline_count": 20,
       "sahi_count": 30,
-      "baseline_time_ms": 809.1,
-      "sahi_time_ms": 984.6,
+      "baseline_time_ms": 548.0,
+      "sahi_time_ms": 574.2,
       "improvement_pct": 50.0,
       "sahi_classes": {
         "car": 25,
@@ -20,8 +20,8 @@
       "size_px": "1024x682",
       "baseline_count": 5,
       "sahi_count": 6,
-      "baseline_time_ms": 44.8,
-      "sahi_time_ms": 552.6,
+      "baseline_time_ms": 66.6,
+      "sahi_time_ms": 253.6,
       "improvement_pct": 20.0,
       "sahi_classes": {
         "person": 1,
@@ -32,8 +32,8 @@
       "size_px": "1920x1080",
       "baseline_count": 13,
       "sahi_count": 70,
-      "baseline_time_ms": 43.9,
-      "sahi_time_ms": 1359.7,
+      "baseline_time_ms": 67.5,
+      "sahi_time_ms": 597.2,
       "improvement_pct": 438.5,
       "sahi_classes": {
         "airplane": 2,
@@ -45,9 +45,34 @@
         "bottle": 1,
         "cell phone": 4
       }
+    },
+    "terrain_4.png": {
+      "size_px": "748x420",
+      "baseline_count": 1,
+      "sahi_count": 1,
+      "baseline_time_ms": 30.2,
+      "sahi_time_ms": 140.8,
+      "improvement_pct": 0.0,
+      "sahi_classes": {
+        "car": 1
+      }
+    },
+    "terrain_3.png": {
+      "size_px": "2986x1680",
+      "baseline_count": 12,
+      "sahi_count": 15,
+      "baseline_time_ms": 139.0,
+      "sahi_time_ms": 1602.9,
+      "improvement_pct": 25.0,
+      "sahi_classes": {
+        "person": 11,
+        "cow": 1,
+        "backpack": 2,
+        "baseball glove": 1
+      }
     }
   },
-  "total_baseline": 38,
-  "total_sahi": 106,
-  "total_improvement_pct": 178.9
+  "total_baseline": 51,
+  "total_sahi": 122,
+  "total_improvement_pct": 139.2
 }

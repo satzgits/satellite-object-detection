@@ -26,6 +26,8 @@ SOURCES = [
     ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/small-vehicles1.jpeg", "small_vehicles_1.jpg"),
     ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/terrain2.png", "terrain_2.png"),
     ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/obb_test_image.png", "obb_test_image.png"),
+    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain4.png", "terrain_4.png"),
+    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain3.png", "terrain_3.png"),
 ]
 
 
