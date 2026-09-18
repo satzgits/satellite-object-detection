@@ -1,0 +1,92 @@
+{
+  "P0004_tile.png": {
+    "baseline": 0,
+    "sahi": 0,
+    "classes": {}
+  },
+  "P0706.png": {
+    "baseline": 0,
+    "sahi": 33,
+    "classes": {
+      "person": 1,
+      "bicycle": 2,
+      "car": 16,
+      "boat": 10,
+      "skateboard": 3,
+      "surfboard": 1
+    }
+  },
+  "P0770.png": {
+    "baseline": 0,
+    "sahi": 9,
+    "classes": {
+      "car": 5,
+      "truck": 2,
+      "clock": 2
+    }
+  },
+  "P1088.png": {
+    "baseline": 10,
+    "sahi": 28,
+    "classes": {
+      "bicycle": 4,
+      "airplane": 18,
+      "bird": 2,
+      "tennis racket": 2,
+      "cell phone": 2
+    }
+  },
+  "P1234.png": {
+    "baseline": 12,
+    "sahi": 28,
+    "classes": {
+      "person": 5,
+      "car": 1,
+      "bus": 3,
+      "train": 1,
+      "truck": 1,
+      "boat": 1,
+      "traffic light": 4,
+      "zebra": 1,
+      "giraffe": 1,
+      "suitcase": 1,
+      "skis": 1,
+      "surfboard": 1,
+      "laptop": 2,
+      "remote": 2,
+      "cell phone": 1,
+      "oven": 1,
+      "clock": 1
+    }
+  },
+  "P1888.png": {
+    "baseline": 0,
+    "sahi": 1,
+    "classes": {
+      "person": 1
+    }
+  },
+  "P2598.png": {
+    "baseline": 0,
+    "sahi": 9,
+    "classes": {
+      "person": 1,
+      "suitcase": 2,
+      "tennis racket": 1,
+      "refrigerator": 1,
+      "clock": 4
+    }
+  },
+  "P2709.png": {
+    "baseline": 0,
+    "sahi": 11,
+    "classes": {
+      "person": 5,
+      "bench": 1,
+      "toilet": 1,
+      "remote": 1,
+      "clock": 2,
+      "toothbrush": 1
+    }
+  }
+}

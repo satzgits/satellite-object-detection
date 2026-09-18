@@ -22,12 +22,19 @@ DATA_DIR.mkdir(exist_ok=True)
 
 SOURCES = [
     # (url, filename)
-    # Real aerial images from the SAHI project's demo assets.
-    ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/small-vehicles1.jpeg", "small_vehicles_1.jpg"),
-    ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/terrain2.png", "terrain_2.png"),
-    ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/obb_test_image.png", "obb_test_image.png"),
-    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain4.png", "terrain_4.png"),
-    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain3.png", "terrain_3.png"),
+    # Real satellite/aerial scenes from the DOTA dataset (official devkit repo).
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P0706.png", "sat_P0706_marina.png"),
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P0770.png", "sat_P0770_city.png"),
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P1088.png", "sat_P1088_airport.png"),
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P1234.png", "sat_P1234_urban.png"),
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P2598.png", "sat_P2598_scene.png"),
+    ("https://raw.githubusercontent.com/CAPTAIN-WHU/DOTA_devkit/master/example/images/P2709.png", "sat_P2709_scene.png"),
+    ("https://raw.githubusercontent.com/DingJiansw101/AerialDetection/master/demo/P0009.jpg", "sat_P0009_airport.jpg"),
+    # Real aerial photos from the SAHI project's demo/test assets.
+    ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/small-vehicles1.jpeg", "aerial_small_vehicles.jpg"),
+    ("https://raw.githubusercontent.com/obss/sahi/main/demo/demo_data/obb_test_image.png", "aerial_obb_boats.png"),
+    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain4.png", "aerial_terrain4.png"),
+    ("https://raw.githubusercontent.com/obss/sahi/main/tests/data/coco_utils/terrain3.png", "aerial_terrain3.png"),
 ]
 
 

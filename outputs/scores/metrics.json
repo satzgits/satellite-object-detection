@@ -4,36 +4,144 @@
   "slice": "512x512, overlap 0.2",
   "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
   "per_image": {
-    "small_vehicles_1.jpg": {
+    "sat_P0706_marina.png": {
+      "size_px": "1111x1182",
+      "baseline_count": 0,
+      "sahi_count": 33,
+      "baseline_time_ms": 509.7,
+      "sahi_time_ms": 579.8,
+      "improvement_pct": null,
+      "sahi_classes": {
+        "person": 1,
+        "bicycle": 2,
+        "car": 16,
+        "boat": 10,
+        "skateboard": 3,
+        "surfboard": 1
+      }
+    },
+    "sat_P0770_city.png": {
+      "size_px": "1610x1358",
+      "baseline_count": 0,
+      "sahi_count": 9,
+      "baseline_time_ms": 71.5,
+      "sahi_time_ms": 628.9,
+      "improvement_pct": null,
+      "sahi_classes": {
+        "car": 5,
+        "truck": 2,
+        "clock": 2
+      }
+    },
+    "sat_P1088_airport.png": {
+      "size_px": "1599x1903",
+      "baseline_count": 10,
+      "sahi_count": 28,
+      "baseline_time_ms": 75.4,
+      "sahi_time_ms": 806.2,
+      "improvement_pct": 180.0,
+      "sahi_classes": {
+        "bicycle": 4,
+        "airplane": 18,
+        "bird": 2,
+        "tennis racket": 2,
+        "cell phone": 2
+      }
+    },
+    "sat_P1234_urban.png": {
+      "size_px": "4000x4000",
+      "baseline_count": 12,
+      "sahi_count": 28,
+      "baseline_time_ms": 130.3,
+      "sahi_time_ms": 3664.7,
+      "improvement_pct": 133.3,
+      "sahi_classes": {
+        "person": 5,
+        "car": 1,
+        "bus": 3,
+        "train": 1,
+        "truck": 1,
+        "boat": 1,
+        "traffic light": 4,
+        "zebra": 1,
+        "giraffe": 1,
+        "suitcase": 1,
+        "skis": 1,
+        "surfboard": 1,
+        "laptop": 2,
+        "remote": 2,
+        "cell phone": 1,
+        "oven": 1,
+        "clock": 1
+      }
+    },
+    "sat_P2598_scene.png": {
+      "size_px": "2356x2054",
+      "baseline_count": 0,
+      "sahi_count": 9,
+      "baseline_time_ms": 159.6,
+      "sahi_time_ms": 1407.4,
+      "improvement_pct": null,
+      "sahi_classes": {
+        "person": 1,
+        "suitcase": 2,
+        "tennis racket": 1,
+        "refrigerator": 1,
+        "clock": 4
+      }
+    },
+    "sat_P2709_scene.png": {
+      "size_px": "2990x2414",
+      "baseline_count": 0,
+      "sahi_count": 11,
+      "baseline_time_ms": 101.3,
+      "sahi_time_ms": 1818.9,
+      "improvement_pct": null,
+      "sahi_classes": {
+        "person": 5,
+        "bench": 1,
+        "toilet": 1,
+        "remote": 1,
+        "clock": 2,
+        "toothbrush": 1
+      }
+    },
+    "sat_P0009_airport.jpg": {
+      "size_px": "1539x2319",
+      "baseline_count": 5,
+      "sahi_count": 25,
+      "baseline_time_ms": 52.4,
+      "sahi_time_ms": 869.2,
+      "improvement_pct": 400.0,
+      "sahi_classes": {
+        "person": 2,
+        "car": 14,
+        "bus": 1,
+        "train": 2,
+        "truck": 2,
+        "bench": 1,
+        "skateboard": 1,
+        "book": 2
+      }
+    },
+    "aerial_small_vehicles.jpg": {
       "size_px": "1068x580",
       "baseline_count": 20,
       "sahi_count": 30,
-      "baseline_time_ms": 548.0,
-      "sahi_time_ms": 574.2,
+      "baseline_time_ms": 42.1,
+      "sahi_time_ms": 228.0,
       "improvement_pct": 50.0,
       "sahi_classes": {
         "car": 25,
         "truck": 5
       }
     },
-    "terrain_2.png": {
-      "size_px": "1024x682",
-      "baseline_count": 5,
-      "sahi_count": 6,
-      "baseline_time_ms": 66.6,
-      "sahi_time_ms": 253.6,
-      "improvement_pct": 20.0,
-      "sahi_classes": {
-        "person": 1,
-        "truck": 5
-      }
-    },
-    "obb_test_image.png": {
+    "aerial_obb_boats.png": {
       "size_px": "1920x1080",
       "baseline_count": 13,
       "sahi_count": 70,
-      "baseline_time_ms": 67.5,
-      "sahi_time_ms": 597.2,
+      "baseline_time_ms": 37.7,
+      "sahi_time_ms": 524.8,
       "improvement_pct": 438.5,
       "sahi_classes": {
         "airplane": 2,
@@ -46,23 +154,23 @@
         "cell phone": 4
       }
     },
-    "terrain_4.png": {
+    "aerial_terrain4.png": {
       "size_px": "748x420",
       "baseline_count": 1,
       "sahi_count": 1,
-      "baseline_time_ms": 30.2,
-      "sahi_time_ms": 140.8,
+      "baseline_time_ms": 25.1,
+      "sahi_time_ms": 94.3,
       "improvement_pct": 0.0,
       "sahi_classes": {
         "car": 1
       }
     },
-    "terrain_3.png": {
+    "aerial_terrain3.png": {
       "size_px": "2986x1680",
       "baseline_count": 12,
       "sahi_count": 15,
-      "baseline_time_ms": 139.0,
-      "sahi_time_ms": 1602.9,
+      "baseline_time_ms": 77.2,
+      "sahi_time_ms": 1219.1,
       "improvement_pct": 25.0,
       "sahi_classes": {
         "person": 11,
@@ -72,7 +180,7 @@
       }
     }
   },
-  "total_baseline": 51,
-  "total_sahi": 122,
-  "total_improvement_pct": 139.2
+  "total_baseline": 73,
+  "total_sahi": 259,
+  "total_improvement_pct": 254.8
 }
